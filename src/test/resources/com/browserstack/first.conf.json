@@ -1,0 +1,21 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "username": "BROWSERSTACK_USERNAME",
+  "access_key": "BROWSERSTACK_ACCESS_KEY",
+
+  "capabilities": {
+    "project": "First TestNg iPhone Project",
+    "build": "TestNg iPhone First",
+    "name": "first_test",
+    "browserstack.debug": true,
+    "app": "bs://4d749f6b26bf8f4e6d5cac617133d17225047ac4",
+    "browserstack.enableCameraImageInjection": true
+  },
+
+  "environments": [
+    { 
+      "device": "iPhone XS",
+      "os_version": "13"
+    }
+  ]
+}
